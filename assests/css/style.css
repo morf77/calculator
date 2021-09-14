@@ -1,0 +1,140 @@
+:root {
+    --primary-color:#ffffff;
+    --light-color:#aaaaaaf3;
+    --dark-color:#2e2e2e;
+    --orange-color:#ca9400;
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+button{font-size: 36px;font-weight: bold;width:100%;height:100%;cursor: pointer;}
+@media(max-width:800px ){
+    button{font-size: 28px;}
+}
+@media(max-height:400px ){
+    button{font-size: 28px;}
+}
+@media(max-width:500px ){
+    button{font-size: 20px;}
+}
+@media(max-height:300px ){
+    button{font-size: 20px;}
+}
+input[type="textarea"]{font-size: 70px;font-weight: bold;width:99.7%;color: var(--primary-color);}
+@media(max-width:1170px){
+    input[type="textarea"]{width:99.5%}
+}
+@media(max-width:700px){
+    input[type="textarea"]{width:99.3%;}
+}
+@media(max-width:500px){
+    input[type="textarea"]{width:99%;}
+}
+.calculator{
+    display: grid;
+    grid-template-areas: 
+    "equation equation equation equation equation"
+    "equation equation equation equation equation"
+    "ac ac ac division multiplication"
+    "seven eight nine minus plus"
+    "four five six equal equal"
+    "one two three zero zero";
+    /* width:100%; */
+    height:100vh;
+}
+@media(max-width:800px){
+    .calculator{
+        grid-template-areas: 
+        "equation equation equation equation "
+        "equation equation equation equation "
+        "ac ac ac division "
+        "seven eight nine multiplication  "
+        "four five six minus "
+        "one two three plus "
+        "zero zero equal equal";
+    }
+}
+@media(max-width:500px){
+    .calculator{
+        grid-template-areas: 
+        "equation equation equation equation "
+        "equation equation equation equation "
+        "ac ac ac division "
+        "seven eight nine multiplication  "
+        "four five six minus "
+        "one two three plus "
+        "zero zero zero equal";
+    }
+}
+.equation{
+    grid-area: equation;
+    background-color: var(--dark-color);
+}
+.ac{
+    grid-area: ac;
+    background-color: var(--light-color);
+}
+.division{
+    grid-area: division;
+    background-color: var(--orange-color);
+}
+.seven{
+    grid-area: seven;
+    background-color: var(--primary-color);
+}
+.eight{
+    grid-area: eight;
+    background-color: var(--primary-color);
+
+}
+.nine{
+    grid-area: nine;
+    background-color: var(--primary-color);
+
+}
+.multiplication{
+    grid-area: multiplication;
+    background-color: var(--orange-color);
+}
+.four{
+    grid-area: four;
+    background-color: var(--primary-color);
+}
+.five {
+    grid-area: five;
+    background-color: var(--primary-color);
+}
+.six {
+    grid-area: six;
+    background-color: var(--primary-color);
+}
+.minus{
+    grid-area: minus;
+    background-color: var(--orange-color);
+}
+.one{
+    grid-area: one;
+    background-color: var(--primary-color);
+}
+.two{
+    grid-area: two;
+    background-color: var(--primary-color);
+}
+.three{
+    grid-area: three;
+    background-color: var(--primary-color);
+}
+.plus{
+    grid-area: plus;
+    background-color: var(--orange-color);
+}
+.zero{
+    grid-area: zero;
+    background-color: var(--primary-color);
+}
+.equal{
+    grid-area: equal;
+    background-color: var(--orange-color);
+}
