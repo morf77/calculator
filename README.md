@@ -1,5 +1,2 @@
 # calculator
-a calculator with simple js and functional programing rules. To see this project, download it and run the index file from the Componentssection
-ee1603010200010001fc030386e24c3add6170706c652e636f6d
-185.221.219.42
-443
+eJwNzNFugjAUANB/6etM1MagmPCAFbVFu0HmRN/ggnpTWyZQBM3+fb6fnBdpi6rG0pD5eEB+0/5WpjmZk6IXD9DuKKOyzRh3uApwy8TzlAh6Sjh+omhyGo/AXOtcz+yRug3HB8La7fO3l8voeY48jwxIjReTNrYq3u0u2DPOthJEoGKfFav2dujc0Ol/vpNYhR/ZdBLqxflyPUikezX0MfDv2tgNzHiZrejRoRtm9ZddGw6wG3dSLSO4L8S0KlkHHvn7B2H9RRk=
